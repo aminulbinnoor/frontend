@@ -1,6 +1,6 @@
 ## Installation
 
-#### 1. To install run the following commands in a working directory: 
+#### 1. To clone the repository copy the below link 
 ```
 git clone https://github.com/aminulbinnoor/frontend.git
 ```
