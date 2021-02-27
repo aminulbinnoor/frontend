@@ -4,30 +4,12 @@
 ```
 git clone https://github.com/aminulbinnoor/frontend.git
 ```
-#### 2. Now run and make sure you have the composer installed on your machine:
+#### 2. Now run this command.
 ```
-composer install 
+npm install 
 ```
-
-#### 3. In the next step, open the .env.example file. Change the data of this file to .env and the details of the site, database.
-
-#### 4. Run the command from the main project folder to create database tables.
+#### 3. Finally run this command from project folder.
 ```
-php artisan migrate --seed
+npm run dev 
 ```
 
-#### 5. Run the command from the main project folder for image link setup.
-```
-php artisan storage:link
-```
-
-#### 6. that's all ! Now start the laravel server using the command:
-```
-php artisan serve
-```
-
-#### 6. Login to admin panel by using this account:
-```
-user: 100003
-password: 12345678
-```
